@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #eaac8b;
+    font-family: 'Zen Loop', sans-serif;
+    background-color: #f5cac3;
+}
+.container{
+    margin-top: 1.5rem;
+    height: 75vh;
+    width: 56vw;
+  background-color: #355070;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:25px;
+}
+
+
+.p1 {
+    width: 37vh;
+    height: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #b56576;
+    border-radius:15px;
+
+}
+
+h1 {
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+button {
+    color: #000;
+    font-size: 1.15rem;
+    background-color: #6d597a;
+    font-weight: 500;
+    margin:1.5rem;
+    padding: 0.25rem 0.5rem;
+    border-radius:5px;
+    border: none;
+}
+
+#newG{
+    font-size: 1.5rem;
+    font-weight: 800;
+    background-color: #ffb5a7;
+    color:#013a63 ;
+    border-radius:10px;
+    width: 100vh;
+    height: 5vw;
+    margin:1.5rem;
+    padding: 1rem;
+    
+}
+#link {
+    text-decoration: none;
+
+}
+#link:visited {
+color: #b56576;
+}
+#link:link{
+    color: #006466;
+}
+button:hover{
+    transform: scale(2.0);
+}
+a{
+    background-color: #f6bd60;
+    font-weight: 800;
+    margin:1.5rem;
+    padding: 0.25rem 0.5rem;
+    border-radius:5px;
+    border: none;
+
+}
+a:hover {
+    background-color:#b56576 ;
+    
+    
+}
+
+.p2{
+    width: 37vh;
+    height: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #723c70;
+    border-radius:15px;
+}
+#gameplayed{
+    width: 37vh;
+    height: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7b267;
+    color: #723c70;
+    border-radius:15px;
+    font-weight: 1000;
+}
